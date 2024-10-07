@@ -865,6 +865,9 @@ a.link-small-160lh {
   font-size: 1.6rem;
   line-height: 1.6;
 }
+a.link-normal-underline {
+  text-decoration: underline;
+}
 .no-touch a:hover.link-small {
   color: var(--t-medium);
 }
@@ -872,6 +875,9 @@ a.link-small-160lh {
   color: var(--t-medium);
 }
 .no-touch a:hover.link-small-160lh {
+  color: var(--t-medium);
+}
+.no-touch a:hover.link-normal-underline {
   color: var(--t-medium);
 }
 @media only screen and (min-width: 1200px) {
@@ -898,6 +904,9 @@ a.link-small-160lh {
   a.link-small-160lh {
     font-size: 1.8rem;
     line-height: 1.6;
+  }
+  a.link-normal-underline {
+    text-decoration: underline;
   }
 }
 
